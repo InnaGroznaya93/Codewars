@@ -10,3 +10,4 @@ Array.prototype.filter = function (callback, context) {
     }
     return result
 }
+
