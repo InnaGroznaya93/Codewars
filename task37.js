@@ -16,9 +16,9 @@
 function stringSuffix(s) {
     let res = 0
     for(let i = 0; i < s.length; i++) {
-        let str = s.slice(i)
-        for(let j = 0; j < str. length; j++) {
-            if(str[j] === s[j]) {
+        let suffics = s.slice(i)
+        for(let j = 0; j < suffics.length; j++) {
+            if(suffics[j] === s[j]) {
                 res++
                 continue
             }
